@@ -16,7 +16,7 @@ function main () {
   readCli.on('line', (line) => {
     const [command, coordinates] = line.trim().split(' ')
 
-    switch (command) {
+    switch (command.toLocaleUpperCase()) {
       case 'PLACE':
         if (coordinates) {
           const [x, y, f] = coordinates.split(',')
