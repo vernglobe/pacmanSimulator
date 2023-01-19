@@ -1,0 +1,36 @@
+{
+  "name": "pacmansimulator",
+  "version": "1.0.0",
+  "description": "The application is a simulation of Pacman moving on in a grid, of dimensions 5 units x 5 units",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vernglobe/pacmanSimulator.git"
+  },
+  "keywords": [
+    "pacman",
+    "simulator",
+    "vern"
+  ],
+  "author": "vernglobe <vernglobe@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vernglobe/pacmanSimulator/issues"
+  },
+  "homepage": "https://github.com/vernglobe/pacmanSimulator#readme",
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.3.1",
+    "prettier": "^2.8.3",
+    "ts-jest": "^29.0.5"
+  }
+}
